@@ -13,5 +13,10 @@
         "outsideAtlas",
         "img/outside/outsideAtlas.png",
         "img/outside/outsideAtlas.json"
+    ],
+    [
+        "kauppakeskusAtlas",
+        "img/kauppakeskus/kauppakeskusAtlas.png",
+        "img/kauppakeskus/kauppakeskusAtlas.json"
     ]
 ]

@@ -1,12 +1,12 @@
 {
-    "roomId": 1,
-    "assetId": 1,
+    "roomId": 3,
+    "assetId": 4,
     "actionId": 1,
-    "gameStateId": 1,
-    "taskId": 1,
+    "gameStateId": 3,
+    "taskId": 30,
     "dialogId": 1,
     "dialogChainId": 1,
-    "characterId": 1,
+    "characterId": 2,
     "dialogChains": [],
     "defaultCharacterId": 1
 }
