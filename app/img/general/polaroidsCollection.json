@@ -1,0 +1,390 @@
+{"frames": [
+
+{
+	"filename": "alkoholi_polaroid_thumb",
+	"frame": {"x":2,"y":2,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "asetukset_jatka",
+	"frame": {"x":116,"y":2,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "asetukset_paalla",
+	"frame": {"x":546,"y":2,"w":225,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":225,"h":63},
+	"sourceSize": {"w":225,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "asetukset_paavalikkoon",
+	"frame": {"x":773,"y":2,"w":428,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":95},
+	"sourceSize": {"w":428,"h":95},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "asetukset_poisPaalta",
+	"frame": {"x":1203,"y":2,"w":225,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":225,"h":63},
+	"sourceSize": {"w":225,"h":63},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "browserWarning",
+	"frame": {"x":1430,"y":2,"w":306,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":4,"w":306,"h":226},
+	"sourceSize": {"w":307,"h":231},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "foorumi_polaroid_thumb",
+	"frame": {"x":1738,"y":2,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hatanumero_polaroid_thumb",
+	"frame": {"x":1852,"y":2,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hella_polaroid_thumb",
+	"frame": {"x":2,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hiippari_polaroid_thumb",
+	"frame": {"x":116,"y":230,"w":111,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":111},
+	"sourceSize": {"w":111,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "imurointi_polaroid_thumb",
+	"frame": {"x":229,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kulkuvaylat_polaroid_thumb",
+	"frame": {"x":343,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kylma_polaroid_thumb",
+	"frame": {"x":457,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "laakkeet_polaroid_thumb",
+	"frame": {"x":571,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "liesituuletin_polaroid_thumb",
+	"frame": {"x":685,"y":230,"w":111,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":111},
+	"sourceSize": {"w":111,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "loading",
+	"frame": {"x":798,"y":230,"w":214,"h":246},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":246},
+	"sourceSize": {"w":218,"h":246},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "makuupussit_polaroid_thumb",
+	"frame": {"x":1014,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "matkavakuutus_polaroid_thumb",
+	"frame": {"x":1128,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "musiikki_polaroid_thumb",
+	"frame": {"x":1242,"y":230,"w":111,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":111},
+	"sourceSize": {"w":111,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "palli_polaroid_thumb",
+	"frame": {"x":1355,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "palo_polaroid_thumb",
+	"frame": {"x":1469,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pankki_polaroid_thumb",
+	"frame": {"x":1583,"y":230,"w":111,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":111},
+	"sourceSize": {"w":111,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "paristo_polaroid_thumb",
+	"frame": {"x":1696,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "poistuminen_polaroid_thumb",
+	"frame": {"x":1810,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder1_thumb",
+	"frame": {"x":1924,"y":230,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder2_thumb",
+	"frame": {"x":2,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder3_thumb",
+	"frame": {"x":116,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder4_thumb",
+	"frame": {"x":230,"y":478,"w":111,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":111},
+	"sourceSize": {"w":111,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder5_thumb",
+	"frame": {"x":343,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder6_thumb",
+	"frame": {"x":457,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder7_thumb",
+	"frame": {"x":571,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroidPlaceholder8_thumb",
+	"frame": {"x":685,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroid_notFound",
+	"frame": {"x":799,"y":478,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroids_takaisin",
+	"frame": {"x":913,"y":478,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroids_takaisin_active",
+	"frame": {"x":1343,"y":478,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "polaroids_tyhjenna",
+	"frame": {"x":1773,"y":478,"w":160,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":56},
+	"sourceSize": {"w":160,"h":56},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "preloadBar",
+	"frame": {"x":2,"y":591,"w":414,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":414,"h":75},
+	"sourceSize": {"w":414,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "preloadBarBg",
+	"frame": {"x":418,"y":591,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rappu_polaroid_thumb",
+	"frame": {"x":848,"y":591,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "sokeri_polaroid_thumb",
+	"frame": {"x":962,"y":591,"w":111,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":111},
+	"sourceSize": {"w":111,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "virusturva_polaroid_thumb",
+	"frame": {"x":1075,"y":591,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "vuokra_polaroid_thumb",
+	"frame": {"x":1189,"y":591,"w":112,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":111},
+	"sourceSize": {"w":112,"h":111},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "polaroidsCollection.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5e625a7acb5be441202b0a0e63ec7d72:fec3c89c31648c7d1023cf3539b9e985:ec84cbd46abc1c4a7f49c361d370fbaf$"
+}
+}

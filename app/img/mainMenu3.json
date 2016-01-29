@@ -1,0 +1,102 @@
+{"frames": [
+
+{
+	"filename": "mainMenu_valokuvat",
+	"frame": {"x":2,"y":2,"w":180,"h":159},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":159},
+	"sourceSize": {"w":180,"h":159},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_tekijat",
+	"frame": {"x":184,"y":2,"w":180,"h":159},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":159},
+	"sourceSize": {"w":180,"h":159},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_tekijat_active",
+	"frame": {"x":366,"y":2,"w":180,"h":159},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":159},
+	"sourceSize": {"w":180,"h":159},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_valokuvat_active",
+	"frame": {"x":548,"y":2,"w":180,"h":159},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":159},
+	"sourceSize": {"w":180,"h":159},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_uusiPeli_active",
+	"frame": {"x":2,"y":163,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_jatka",
+	"frame": {"x":432,"y":163,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_uusiPeli",
+	"frame": {"x":2,"y":259,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_asetukset_active",
+	"frame": {"x":432,"y":259,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_jatka_active",
+	"frame": {"x":2,"y":355,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "mainMenu_asetukset",
+	"frame": {"x":432,"y":355,"w":428,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":428,"h":94},
+	"sourceSize": {"w":428,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mainMenu3.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2d720d0d5ab01a164edaf9ef98279bec:d81b9a2b4b579ba5552bbc1bdb8c09c3:c44cb3b2f4e8d385db65e806378bd13e$"
+}
+}

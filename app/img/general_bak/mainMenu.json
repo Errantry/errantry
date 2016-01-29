@@ -1,0 +1,858 @@
+{"frames": [
+
+{
+	"filename": "hahmonluonti_hius5",
+	"frame": {"x":2,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_iho1",
+	"frame": {"x":33,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_iho3",
+	"frame": {"x":64,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_iho2",
+	"frame": {"x":95,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_housu5",
+	"frame": {"x":126,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_housu4",
+	"frame": {"x":157,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_housu1",
+	"frame": {"x":188,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_housu3",
+	"frame": {"x":219,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_housu2",
+	"frame": {"x":250,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_iho4",
+	"frame": {"x":281,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_iho5",
+	"frame": {"x":312,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_pyora1",
+	"frame": {"x":343,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_pyora4",
+	"frame": {"x":374,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_pyora3",
+	"frame": {"x":405,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita5",
+	"frame": {"x":436,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita4",
+	"frame": {"x":467,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita1",
+	"frame": {"x":498,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita3",
+	"frame": {"x":529,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita2",
+	"frame": {"x":560,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_pyora2",
+	"frame": {"x":591,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hius2",
+	"frame": {"x":622,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hius3",
+	"frame": {"x":653,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hius1",
+	"frame": {"x":684,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_pyora5",
+	"frame": {"x":715,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hius4",
+	"frame": {"x":746,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hius2_active",
+	"frame": {"x":777,"y":2,"w":37,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":38},
+	"sourceSize": {"w":37,"h":38},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tasku3_button",
+	"frame": {"x":816,"y":2,"w":191,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":45},
+	"sourceSize": {"w":191,"h":46},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tasku1_button",
+	"frame": {"x":1009,"y":2,"w":191,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":46},
+	"sourceSize": {"w":191,"h":46},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tasku2_button",
+	"frame": {"x":1202,"y":2,"w":191,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":46},
+	"sourceSize": {"w":191,"h":46},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tasku3_button_active",
+	"frame": {"x":1395,"y":2,"w":191,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":47},
+	"sourceSize": {"w":191,"h":47},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tasku1_button_active",
+	"frame": {"x":1588,"y":2,"w":191,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":48},
+	"sourceSize": {"w":191,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tasku2_button_active",
+	"frame": {"x":1781,"y":2,"w":191,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":48},
+	"sourceSize": {"w":191,"h":48},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "dialogi_sayer",
+	"frame": {"x":2,"y":52,"w":222,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":50},
+	"sourceSize": {"w":222,"h":50},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "sulje_button",
+	"frame": {"x":226,"y":52,"w":111,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":51},
+	"sourceSize": {"w":111,"h":51},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "descriptionBox",
+	"frame": {"x":339,"y":52,"w":482,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":482,"h":51},
+	"sourceSize": {"w":483,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_sukupuoli_miinus",
+	"frame": {"x":823,"y":52,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita_plus",
+	"frame": {"x":858,"y":52,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_paita_miinus",
+	"frame": {"x":893,"y":52,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_sukupuoli_plus",
+	"frame": {"x":928,"y":52,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hiustyyli_miinus",
+	"frame": {"x":963,"y":52,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_hiustyyli_plus",
+	"frame": {"x":998,"y":52,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":53},
+	"sourceSize": {"w":33,"h":53},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_nena_plus",
+	"frame": {"x":1033,"y":52,"w":33,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":54},
+	"sourceSize": {"w":33,"h":54},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_nena_miinus",
+	"frame": {"x":1068,"y":52,"w":33,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":54},
+	"sourceSize": {"w":33,"h":54},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "nimi_takaisin_disabled",
+	"frame": {"x":1103,"y":52,"w":160,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":56},
+	"sourceSize": {"w":160,"h":56},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "nimi_takaisin",
+	"frame": {"x":1265,"y":52,"w":160,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":56},
+	"sourceSize": {"w":160,"h":56},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "inventory_icon",
+	"frame": {"x":1427,"y":52,"w":61,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":71},
+	"sourceSize": {"w":61,"h":71},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "asetukset_icon",
+	"frame": {"x":1490,"y":52,"w":66,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":71},
+	"sourceSize": {"w":66,"h":71},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "suurennuslasi_icon",
+	"frame": {"x":1558,"y":52,"w":69,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":71},
+	"sourceSize": {"w":69,"h":71},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "questlog_icon",
+	"frame": {"x":1629,"y":52,"w":65,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":73},
+	"sourceSize": {"w":65,"h":73},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rahat_icon",
+	"frame": {"x":1696,"y":52,"w":235,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":76},
+	"sourceSize": {"w":235,"h":76},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "dialogi_ok",
+	"frame": {"x":1933,"y":52,"w":94,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":77},
+	"sourceSize": {"w":94,"h":77},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "dialogi_ok_down",
+	"frame": {"x":2,"y":131,"w":94,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":77},
+	"sourceSize": {"w":94,"h":77},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "choices_tausta",
+	"frame": {"x":98,"y":131,"w":623,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":623,"h":82},
+	"sourceSize": {"w":623,"h":82},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "choices_tausta_down",
+	"frame": {"x":723,"y":131,"w":623,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":623,"h":82},
+	"sourceSize": {"w":623,"h":82},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_jatka",
+	"frame": {"x":1348,"y":131,"w":209,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":94},
+	"sourceSize": {"w":209,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_jatka_disabled",
+	"frame": {"x":1559,"y":131,"w":209,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":94},
+	"sourceSize": {"w":209,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "nimi_aloita_disabled",
+	"frame": {"x":1770,"y":131,"w":270,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":94},
+	"sourceSize": {"w":270,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_takaisin_disabled",
+	"frame": {"x":2,"y":227,"w":208,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":208,"h":94},
+	"sourceSize": {"w":208,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "nimi_aloita",
+	"frame": {"x":212,"y":227,"w":270,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":94},
+	"sourceSize": {"w":270,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hahmonluonti_takaisin",
+	"frame": {"x":484,"y":227,"w":208,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":208,"h":94},
+	"sourceSize": {"w":208,"h":94},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "vinkki_close",
+	"frame": {"x":694,"y":227,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "eTikkanenEteinen_postitIcon",
+	"frame": {"x":796,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pankkiautomaatti_korttiSuuriIcon",
+	"frame": {"x":910,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "eTikkanenEteinen_laakkeetIcon",
+	"frame": {"x":1024,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "eTikkanenEteinen_makuupussiIcon",
+	"frame": {"x":1138,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":113,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pelaajaEteinen_playerMakuupussiIcon",
+	"frame": {"x":1252,"y":227,"w":113,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":112},
+	"sourceSize": {"w":113,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "piha_tuhkisIcon",
+	"frame": {"x":1367,"y":227,"w":113,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":112},
+	"sourceSize": {"w":113,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_sammutuspeiteIcon",
+	"frame": {"x":1482,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "iso_telttaIcon",
+	"frame": {"x":1596,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "herneetIcon",
+	"frame": {"x":1710,"y":227,"w":114,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":112},
+	"sourceSize": {"w":115,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_marsIcon",
+	"frame": {"x":1826,"y":227,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kateinenIcon",
+	"frame": {"x":2,"y":341,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_makuupussi_tikkanenIcon",
+	"frame": {"x":116,"y":341,"w":113,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":112},
+	"sourceSize": {"w":113,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_aurinkorasvaIcon",
+	"frame": {"x":231,"y":341,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_virusturvaIcon",
+	"frame": {"x":345,"y":341,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":114},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_telttaIcon",
+	"frame": {"x":459,"y":341,"w":113,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":113,"h":112},
+	"sourceSize": {"w":114,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "aurinkorasvaIcon",
+	"frame": {"x":574,"y":341,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_makuupussi_pelaajaIcon",
+	"frame": {"x":688,"y":341,"w":112,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":112},
+	"sourceSize": {"w":112,"h":112},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "junaliputIcon",
+	"frame": {"x":802,"y":341,"w":112,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":113},
+	"sourceSize": {"w":112,"h":113},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_ensiapupakkausIcon",
+	"frame": {"x":916,"y":341,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_palovaroittimetIcon",
+	"frame": {"x":1031,"y":341,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppa_paristotIcon",
+	"frame": {"x":1146,"y":341,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "dialogi_tausta",
+	"frame": {"x":2,"y":457,"w":1273,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1273,"h":158},
+	"sourceSize": {"w":1273,"h":158},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "nimi_tekstibox",
+	"frame": {"x":1277,"y":457,"w":674,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":674,"h":177},
+	"sourceSize": {"w":674,"h":177},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "reppu_tausta",
+	"frame": {"x":2,"y":636,"w":1273,"h":330},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1273,"h":330},
+	"sourceSize": {"w":1273,"h":330},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "liikkuminen_ohje",
+	"frame": {"x":1277,"y":636,"w":271,"h":408},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":271,"h":408},
+	"sourceSize": {"w":281,"h":417},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ovet_ohje",
+	"frame": {"x":1550,"y":636,"w":268,"h":488},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":268,"h":488},
+	"sourceSize": {"w":275,"h":498},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rahat_ohje",
+	"frame": {"x":2,"y":1126,"w":271,"h":488},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":271,"h":488},
+	"sourceSize": {"w":277,"h":499},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "apua_ohje",
+	"frame": {"x":275,"y":1126,"w":251,"h":489},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":251,"h":489},
+	"sourceSize": {"w":258,"h":500},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "reppu_ohje",
+	"frame": {"x":528,"y":1126,"w":229,"h":489},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":229,"h":489},
+	"sourceSize": {"w":239,"h":499},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "asetukset_ohje",
+	"frame": {"x":759,"y":1126,"w":247,"h":491},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":10,"w":247,"h":491},
+	"sourceSize": {"w":253,"h":501},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "keskustelut_ohje",
+	"frame": {"x":1008,"y":1126,"w":270,"h":497},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":270,"h":497},
+	"sourceSize": {"w":272,"h":506},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tehtavat_ohje",
+	"frame": {"x":1280,"y":1126,"w":244,"h":500},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":244,"h":500},
+	"sourceSize": {"w":253,"h":503},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "vinkki_tausta",
+	"frame": {"x":1526,"y":1126,"w":341,"h":580},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":580},
+	"sourceSize": {"w":341,"h":580},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mainMenu.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9e22457f9a78a5939a1da5e61320bc59:3296e51336ff23cf0606673e3309ca6b:437a743cde9cc685ba50f701d31f5e30$"
+}
+}
