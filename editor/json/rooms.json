@@ -1,25 +1,24 @@
 [
     {
         "id": 1,
-        "name": "kauppakeskus",
-        "atlasName": "kauppakeskusAtlas",
-        "bgImage": "img/kauppakeskus/kauppakeskus_bg.png",
-        "bgWidth": 2048,
+        "name": "home",
+        "atlasName": "homeAtlas",
+        "bgImage": "img/home/home_bg.png",
+        "bgMusic": "bassogroove",
+        "bgWidth": 2045,
         "bgHeight": 720,
         "spawnX": 200,
         "spawnY": 720,
-        "spawnFace": "left",
-        "music": "",
+        "spawnFace": "right",
+        "music": "nopeafunkihtava1",
         "assets": [
-            "kauppakeskus_doorTo_kauppakatu",
-            "kauppakeskus_doorTo_kauppakeskus2krs",
-            "kauppakeskus_doorTo_vakuutusyhtio",
-            "kauppakeskus_doorTo_kauppa"
+            "home_ball",
+            "home_doorTo_outside"
         ],
         "defaultActions": [],
         "conditionalActions": [],
         "minX": 0,
-        "maxX": 2048
+        "maxX": 800
     },
     {
         "id": 2,
