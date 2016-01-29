@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "home",
+        "atlasName": "homeAtlas",
+        "bgImage": "img/home/home_bg.png",
+        "bgMusic": "bassogroove",
+        "bgWidth": 2045,
+        "bgHeight": 720,
+        "spawnX": 200,
+        "spawnY": 720,
+        "spawnFace": "right",
+        "music": "nopeafunkihtava1",
+        "assets": [
+            "home_ball",
+            "home_doorTo_outside"
+        ],
+        "defaultActions": [],
+        "conditionalActions": [],
+        "minX": 0,
+        "maxX": 800
+    },
+    {
+        "id": 2,
+        "name": "outside",
+        "atlasName": "outsideAtlas",
+        "bgImage": "img/outside/outside_bg.png",
+        "bgMusic": "tidudidduAmbience",
+        "bgWidth": 2045,
+        "bgHeight": 720,
+        "spawnX": 200,
+        "spawnY": 720,
+        "spawnFace": "right",
+        "music": "nopeafunkihtava1",
+        "assets": [
+            "outside_doorTo_home"
+        ],
+        "defaultActions": [],
+        "conditionalActions": [],
+        "minX": 0,
+        "maxX": 2045,
+        "scale": 0.48
+    }
+]

@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<title>Errantry</title>
+  <!--<link rel="stylesheet" href="css/game.css" type="text/css" />-->
+	<script src="js/lib/jquery-1.11.1.min.js"></script>
+	<script src="js/lib/phaser.js"></script>
+	<script src="config.js"></script>
+	<script src="Boot.js"></script>
+	<script src="Preloader.js"></script>
+	<script src="MainMenu.js"></script>
+	<script src="Game.js"></script>
+</head>
+<body>
+
+<style type="text/css">
+  @font-face {
+    font-family: 'opendyslexicregular';
+    src: url('fonts/opendyslexic/opendyslexic-regular-webfont.eot');
+    src: url('fonts/opendyslexic/opendyslexic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opendyslexic/opendyslexic-regular-webfont.woff2') format('woff2'),
+         url('fonts/opendyslexic/opendyslexic-regular-webfont.woff') format('woff'),
+         url('fonts/opendyslexic/opendyslexic-regular-webfont.ttf') format('truetype'),
+         url('fonts/opendyslexic/opendyslexic-regular-webfont.svg#opendyslexicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'troikaregular';
+    src: url('fonts/troika/troika-webfont.eot');
+    src: url('fonts/troika/troika-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/troika/troika-webfont.woff2') format('woff2'),
+         url('fonts/troika/troika-webfont.woff') format('woff'),
+         url('fonts/troika/troika-webfont.ttf') format('truetype'),
+         url('fonts/troika/troika-webfont.svg#troikaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  @font-face {
+    font-family: 'league_gothicregular';
+    src: url('fonts/league/leaguegothic-regular-webfont.eot');
+    src: url('fonts/league/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/league/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/league/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/league/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/league/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  html, body {
+    /*height: 100%;
+    width: 100%;*/
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'opendyslexicregular';
+    background: #333333;
+  }
+
+  #gameContainer {
+    overflow: hidden;
+    /*width:1280px;
+    height:720px;*/
+    margin-left:auto;
+    margin-right:auto;
+    /*margin-top:10px;*/
+  }
+
+  #playerNameInput, #playerNameInput:focus {
+    position: fixed;
+    color: black;
+    background-color: white;
+    top: 280px;
+    left: 100px;
+    height: 70px;
+    width: 540px;
+    font-family: 'opendyslexicregular';
+    font-size: 48px;
+    text-align: center;
+    border: none;
+    /*border: 5px solid #1785ec;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    -webkit-tap-highlight-color: transparent !important;  // i.e. Nexus5/Chrome and Kindle Fire HD 7''
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+    outline: none !important;
+    z-index: 2147483647;
+  }
+
+</style>
+
+<div id="gameContainer"></div>
+<canvas id="playerCharacterCreator" style="display:none;"></canvas>
+<canvas id="playerCharacterCreatorHead" style="display:none;"></canvas>
+<div id="roomInfoBox" style="position: absolute; top: 20px; left: 150px; fontWeight: bold; fontSize: 16px; color: white;" ></div>
+<div id="debugBox" style="position: absolute; top: 100px; left: 10px; fontWeight: bold; fontSize: 16px; color: white;" ></div>
+<div id="debugBox2" style="position: absolute; bottom: 20px; left: 10px; fontWeight: bold; fontSize: 16px; color: white;" ></div>
+<script type="text/javascript">
+
+window.onerror = function (errorMsg, url, lineNumber) {
+  // Save errors to log for debugging
+  var date = new Date();
+  $.post("logGame.php", {
+    action: 'createErrorLogFile',
+    error: date + ' Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber,
+    filename: 'error.log'
+  }, "json").done();
+}
+
+window.onload = function() {
+
+  /*resizeGame = function () {
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    game.width = width;
+    game.height = height;
+    console.log(game.stage);
+    //game.stage.bounds.width = width;
+    //game.stage.bounds.height = height;
+    game.camera.setSize(width, height);
+
+    if (game.renderType === 1) {
+      game.renderer.resize(width, height);
+      Phaser.Canvas.setSmoothingEnabled(game.context, false);
+    }
+  }*/
+
+  /*MOBILE ONLY
+  var width = $(window).width();
+  var height = $(window).height();*/
+
+  /*var width = 1280;
+  var height = 720;*/
+
+
+
+  //	Create your Phaser game and inject it into the gameContainer div.
+  //	We did it in a window.onload event, but you can do it anywhere (requireJS load, anonymous function, jQuery dom ready, - whatever floats your boat)
+  var origHeight = 720;
+	var origWidth = 1280;
+
+	var width = $(window).width();
+    var height = $(window).height();
+
+	if (height > origHeight) {
+		height = origHeight;
+	}
+	if (width > origWidth) {
+		width = origWidth;
+	}
+
+	var game = new Phaser.Game(width, height, Phaser.AUTO, 'gameContainer');
+	game.origWidth = origWidth;
+	game.origHeight = origHeight;
+	game.created = false;
+	game.menuCreated = false;
+
+  //	Add the States your game has.
+  //	You don't have to do this in the html, it could be done in your Boot state too, but for simplicity I'll keep it here.
+  game.state.add('Boot', Game.Boot);
+  game.state.add('Preloader', Game.Preloader);
+  game.state.add('MainMenu', Game.MainMenu);
+  game.state.add('Game', Game.Game);
+
+  //	Now start the Boot state.
+  game.state.start('Boot');
+
+  //window.onresize = startResizing;
+  window.onresize = gameResized;
+  var resizing = false;
+
+  // TODO: check why doesn't work
+  function startResizing(e) {
+
+	if (resizing) {
+		return;
+	}
+	resizing = true;
+	setTimeout(function(e) {
+		gameResized(e);
+    resizing = false;
+	}, 300);
+  }
+
+  function gameResized(event) {
+
+    if (game != undefined && game.state != undefined && game.state.states != undefined && game.state.states.Game != undefined) {
+      gameObj = game.state.states.Game;
+    }
+
+    //console.log('resize@index');
+
+    /*if (!game.created) {
+      //console.log('!created');
+      return;
+    }*/
+    //console.log(gameObj.scaleFactor);
+    var width = $(window).width();
+    var height = $(window).height();
+
+    if (height > game.origHeight) {
+      height = game.origHeight;
+    }
+    if (width > game.origWidth && gameObj.scaleFactor == undefined) {
+      width = game.origWidth;
+    }
+    else if (gameObj.scaleFactor != null && gameObj.bg.width != null) {
+      width = game.origWidth * game.state.states.Game.scaleFactor;
+    }
+
+
+    if (game.created && game != undefined && game.state != undefined && game.state.states != undefined && game.state.states.Game != undefined && game.state.states.Game.resizeGame != undefined) {
+      $("#gameContainer").hide();
+      game.state.states.Game.resizeGame(width, height);
+    }
+    else {
+      // Resize menu
+      if (game.menuCreated) {
+        game.state.states.MainMenu.resizeMenu(width, height);
+      }
+    }
+  }
+
+};
+
+</script>
+
+</body>
+</html>

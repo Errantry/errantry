@@ -1,0 +1,388 @@
+.ui-accordion .ui-accordion-content {
+	padding: 0.9em 0.9em;
+	padding-right: 0em;
+}
+.headerButton {
+	cursor: pointer;
+	margin-left: 10px;
+}
+.headerButton.selected {
+	background-color: royalblue;
+}
+#header hr {
+	margin-bottom: 0px;
+}
+#startingRoomSection, #playerCharacterSection  {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#logoutLink {
+	float: right;
+}
+#logoutLink a {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.contentView h2, .pane h2 {
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+#container {
+	background:	777;
+	/* HEIGHT */
+	height:		880px;					
+	min-height:	300px;
+	_height:	300px; /* min-height for IE6 */
+	/* WIDTH */
+	width:		1920px;
+	min-width:	700px;
+	_width:		700px; /* min-width for IE6 */
+	padding: 0px;
+	margin: 0px;
+}
+body, html, #container, #mainWindow {
+	padding: 0px;
+	margin: 0px;
+}
+#header {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 5px;
+}
+#topWindow {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+#bottomWindow {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
+}
+
+.contentView {
+	display: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.leftProperties, .rightProperties {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+	width: 370px;
+	text-align: left;
+}
+.leftSide, .rightSide {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+#roomsView .leftSide, #assetsView .leftSide {
+	width: 65%;
+	min-width: 500px;
+}
+#roomsView .rightSide, #assetsView .rightSide {
+	width: 34%;
+}
+#roomInfo, #assetInfo, #actionInfo, #dialogInfo, #characterInfo {
+	margin-top: 10px;
+}
+#roomInfo label, #roomInfo input, #roomInfo select, #assetInfo label, #assetInfo input, #assetInfo select, #dialogInfo label, #dialogInfo:not(#dialogPathContainer ) input:not(.node__input), #dialogInfo select, #characterInfo label, #characterInfo input, #characterInfo select  {
+	margin: 5px;
+}
+#roomConditionalActionsList label, #roomConditionalActionsList input, #assetConditionalActionsList label, #assetConditionalActionsList input, #dialogConditionalActionsList label, #dialogConditionalActionsList input, #characterConditionalActionsList label, #characterConditionalActionsList input {
+	margin-top: 0px;
+}
+.conditionInput, .conditionGamestateInput, .dialogChoiceText, #dialogText {
+	width: 300px;
+}
+#roomDefaultActionsList label, #roomDefaultActionsList input, #assetDefaultActionsList label, #assetDefaultActionsList input, #dialogDefaultActionsList label, #dialogDefaultActionsList input , #characterDefaultActionsList label, #characterDefaultActionsList input{
+	margin-top: 0px;
+}
+
+.roomCondition, .assetCondition, .dialogCondition , .characterCondition, .dialogChoice, #dialogConditionalNextList > li, #assetAnimationsList > li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	/*background-color: #96CEFF;*/
+	background-color: rgba(0,0,0,0.1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.dialogChoice, #dialogConditionalNextList > li, #assetAnimationsList > li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: -20px;
+}
+
+.dialogConditionalNextCondition {
+	width: 300px;
+}
+
+.roomAction, .assetAction, .dialogAction, .characterAction, .roomAsset {
+	/*background-color: #FFD063;*/
+	background-color: rgba(0,0,0,0.1);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+#actionTasksList li, #spriteAtlasesList li, #gamestatesList li , #audioSpritesList li, #normalAudiosList li {
+	background-color: rgba(0,0,0,0.1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+#roomAssetsList, #actionTasksList, #roomDefaultActionsList, #assetDefaultActionsList, #dialogDefaultActionsList, #characterDefaultActionsList, #spriteAtlasesList, #normalAudiosList, #audioSpritesList {
+	margin-right: 10px;
+}
+
+#spriteAtlasesList .deleteSpriteAtlasButton, #normalAudiosList .deleteAudioButton, #audioSpritesList .deleteAudioSpriteButton {
+	cursor: pointer;
+}
+
+#spriteAtlasesList > li:hover, #normalAudiosList > li:hover, #audioSpritesList > li:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.roomCondition .right > .sortable-handle, .assetCondition .right > .sortable-handle, .dialogCondition .right > .sortable-handle, .characterCondition .right > .sortable-handle {
+	position: absolute;
+	right: 30px;
+}
+
+.roomAction .sortable-handle, .assetAction .sortable-handle, .dialogAction .sortable-handle, .characterAction .sortable-handle, #actionTasksList .sortable-handle, .roomAsset .sortable-handle, .dialogChoice .sortable-handle, #dialogConditionalNextList > li .sortable-handle {
+	float: right;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.sortable-handle {
+    background-position: -128px 0;
+	/*background-image: url("lib/jquery-ui-1.11.4/images/ui-icons_222222_256x240.png");*/
+	background-image: url("lib/jquery-ui-1.11.4/images/ui-icons_ffffff_256x240.png");
+	background-repeat: no-repeat;
+    /*display: inline-block;*/
+    overflow: hidden;
+    text-indent: -99999px;
+	/*float: right;
+	margin-right: 100px;*/
+	margin-top: 3px;
+	cursor: move;
+	background-color: royalblue;
+	height: 16px;
+    width: 16px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+#roomAssetsList, #roomDefaultActionsList, #roomConditionalActionsList, #actionTasksList, #assetAnimationsList, #assetDefaultActionsList, #assetConditionalActionsList, #dialogDefaultActionsList, #characterConditionalActionsList, #characterDefaultActionsList, #dialogConditionalActionsList, #dialogChoicesList, #roomDialogs {
+	margin-top: 0px;
+}
+#roomInfoLower, #assetInfoLower, #dialogInfoLower {
+	margin-top: 10px;
+}
+.roomInfoLower, .assetInfoLower, .dialogInfoLower {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	min-width: 650px;
+	margin-bottom: 10px;
+}
+.roomAction a, .assetAction a, .dialogAction a, .dialogPathNode a, .roomDialog a, .roomAsset a , .characterAction a , #roomNPCList .showCharacter {
+	color: darkblue;
+	text-decoration: none;
+	cursor: pointer;
+}
+#bgPreview, #assetPreview {
+	height:100px;
+	text-align: right;
+	margin-top: -30px;
+}
+#bgPreview img, #assetPreview img  {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#roomAssetsList, #actionTasksList, #roomDefaultActionsList, #roomConditionalActionsList, #assetDefaultActionsList, #assetConditionalActionsList, #dialogDefaultActionsList, #dialogConditionalActionsList, #characterDefaultActionsList, #characterConditionalActionsList, .roomCondition ul, .assetCondition ul, .dialogCondition ul, .characterCondition ul, .dialogChoice, #dialogConditionalNextList > li, #assetAnimationsList > li , #spriteAtlasesList, #normalAudiosList, #audioSpritesList {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.roomCondition .left, .roomCondition .right, .assetCondition .left, .assetCondition .right, .dialogCondition .left, .dialogCondition .right, .characterCondition .left, .characterCondition .right {
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+}
+.roomCondition .left, .assetCondition .left, .dialogCondition .left, .characterCondition .left {
+	min-width: 50px;
+	text-align: center;
+	width: 8%;
+}
+.roomCondition .right, .assetCondition .right, .dialogCondition .right, .characterCondition .right{
+	min-width: 340px;
+	width: 80%;
+}
+.editCondition, .saveCondition {
+	margin-top: 5px;
+}
+.actionTaskToUse/*, #actionTasksList li*/ {
+	cursor: move;
+}
+#actionTasksList li.placeholder {
+	height: 100px;
+	font-size: 120%;
+}
+#tasksInAction, #tasksAvailable {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+	/*width: 50%;*/
+	text-align: left;
+}
+#tasksInAction {
+	min-width: 360px;
+	width: 75%;
+	margin-right: 20px;
+}
+#tasksAvailable {
+	min-width: 150px;
+	width: 10%;
+}
+
+#actionTasksList li.commentLine {
+  background-color: rgba(65,105,225,0.9);
+  color: rgb(240,248,255);
+}
+#actionCommentArea {
+  width: 95%;
+}
+
+#gamestatesView input, #gamestatesView label, #gamestatesView select {
+	margin-bottom: 5px;
+}
+
+#gamestatesList {
+	list-style-type: none;
+	padding-left: 5px;
+}
+#gamestatesList li {
+	margin-bottom: 5px;
+}
+
+
+.ui-autocomplete {
+	max-height: 100px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+	height: 100px;
+}
+
+#dialogDialogueSearch {
+	width: 300px;
+}
+
+.dialogChoiceCondition {
+	width: 238px;
+}
+
+#dialogPathContainer {
+	/*overflow-x: scroll;*/
+	width: 100%;
+}
+#dialogPath {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.dialogPathNode {
+	list-style: none;
+	margin: 0px;
+}
+.dialogPathConditionalNext > .node {
+	background: none repeat scroll 0 0 palegreen;
+}
+.dialogPathChoice > .node {
+	background: none repeat scroll 0 0 lightblue;
+}
+.node_root {
+	margin-left: 5px;
+}
+.node.multiLinkRoot {
+	background: none repeat scroll 0 0 #228693;
+}
+.multiLinkContainer {
+	margin-left: 15px;
+}
+.node__input {
+	background-color: white;
+	margin: 1px 0 0 1px;
+}
+/*
+.activeDialogNode:not(.nextItems) {
+	background-color: blue;
+	color: white;
+}
+*/
+
+.dialogDeleteNode {
+	/*background-color: gray;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	width: 13px;
+	height: 13px;
+	line-height: 13px;
+	/*display: inline-block;*/
+	position: absolute;
+	top: 1px;
+	left: -17px;
+	text-align: center;
+	cursor: pointer;
+	background: #3498DB;
+	color: #fff;
+	z-index: 10;
+}
+.dialogAddNode {
+	/*background-color: gray;*/
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 4px;
+	width: 13px;
+	height: 13px;
+	line-height: 13px;
+	/*display: inline-block;*/
+	position: absolute;
+	top: 1px;
+	right: -17px;
+	text-align: center;
+	cursor: pointer;
+	background: #3498DB;
+	color: #fff;
+	z-index: 10;
+}

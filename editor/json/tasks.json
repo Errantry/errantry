@@ -1,0 +1,385 @@
+[
+  {
+      "name": "changeGamestate",
+      "paramTypes": [
+          "string",
+          "mixed",
+          "bool"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          false
+      ],
+      "description": "string = gamestaten nimi, mixed = arvo, bool = increment(default false)"
+  },
+  {
+      "name": "fade",
+      "paramTypes": [
+          "float",
+          "float",
+          "string"
+      ],
+      "defaultParams": [
+          "null",
+          1,
+          "null"
+      ],
+      "description": "float 0-1, opacity to fade to (1 = black screen), seconds = float, 0 = instant change (default 1 second), color, hexadecimal value as a string of 6 characters (default black)."
+  },
+  {
+      "name": "launchDialogue",
+      "paramTypes": [
+          "int"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "int = dialogin id"
+  },
+  {
+      "name": "showAsset",
+      "paramTypes": [
+          "string",
+          "bool"
+      ],
+      "defaultParams": [
+          "null",
+          false
+      ],
+      "description": "string = assetin nimi, bool = vapaaehtoinen, truella ei enabloida inputtia jos sellainen on"
+  },
+  {
+      "name": "hideAsset",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string = assetin nimi"
+  },
+  {
+      "name": "modifyAsset",
+      "paramTypes": [
+          "string",
+          "string",
+          "mixed"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "string1 = assetin nimi, string2 = assetin property, mixed = propertyyn asetettava value"
+  },
+  {
+      "name": "playAnimation",
+      "paramTypes": [
+          "string",
+          "string"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "assetin nimi, string2 = animaation nimi"
+  },
+  {
+      "name": "playFx",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string = efektin nimi"
+  },
+  {
+      "name": "wait",
+      "paramTypes": [
+          "int"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "int = odotettava aika sekunteina"
+  },
+  {
+      "name": "moveAssetTo",
+      "paramTypes": [
+          "int",
+          "int",
+          "string",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "x = int, y = int, name = string, velocity = int, pixels per second"
+  },
+ {
+      "name": "moveCharacterTo",
+      "paramTypes": [
+          "int",
+          "bool"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "int = x value where to move, bool = don't move follower automatically after the character"
+  },
+  {
+      "name": "changeQuestLog",
+      "paramTypes": [
+          "string",
+          "string",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "string = machineName, name of quest, string = operation, hide/show/complete/incomplete/hidePart/showPart, int = textIndex, only in hidePart/showPart"
+  },
+  {
+      "name": "modifyNpc",
+      "paramTypes": [
+          "string",
+          "string",
+          "mixed"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "string1 = npcName, string2 = operation, mixed = value, available operations: getIn (value = door where to appear), getOut (value = door where to walk to and disappear), startFollowing (no value), stopFollowing (no value), hide (no value), show (no value), showPart (value = body part to display), hidePart (value = body part to hide), attachToRoom (value = room to attach to), detachFromRoom (value = Room to detach from), changeY (value = new Y value), toggleForeground (Switch npc foreground/background value), changeWalkAnimation (value = New animation name), changeIdleAnimation (value = New animation name)"
+  },
+  {
+      "name": "moveNpcTo",
+      "paramTypes": [
+          "string",
+          "int",
+          "int",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "npcName, target (can be 'character', name of asset or x coordinate), targetY, velocity"
+  },
+  {
+      "name": "modifyDoor",
+      "paramTypes": [
+          "string",
+          "bool"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "string1 = doorName, bool = doorState(ovi auki/kiinni)"
+  },
+  {
+      "name": "sendMessage",
+      "paramTypes": [
+          "string",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "string = chatId (format like 'chatMessages0', 'chatMessages1', 'chatEmail0', 'chatForum0' etc.), int = dialogueId (the message/question/chat which starts the next time the user goes to the wallet)"
+  },
+  {
+      "name": "teleport",
+      "paramTypes": [
+          "string",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "string = huoneen nimi, int = OPTIONAL spawnX"
+  },
+  {
+      "name": "addToInventory",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string = assetin nimi"
+  },
+  {
+      "name": "removeFromInventory",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string = assetin nimi"
+  },
+  {
+      "name": "incomingPhoneCall",
+      "paramTypes": [
+          "int",
+          "string"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "int = dialogue id, string = callers machineName"
+  },
+  {
+      "name": "flipNpc",
+      "paramTypes": [
+          "string",
+          "string"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "string = npcName, string = target, can be 'left', 'right', 'character' or an x coordinate"
+  },
+  {
+      "name": "addPlayerName",
+      "paramTypes": [
+          "string",
+          "string",
+          "int",
+          "int",
+          "int",
+          "string",
+          "string",
+          "int",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null",
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "string1 = textId, name of string to use when deleting it; string2 = roomId, where to add the player name to; int1 = x coordinate; int2 = y coordinate; int3 = fontsize; string4 = OPTIONAL font name (default opendyslexicregular), string3 = OPTIONAL color of text (default FFFFFF), int4 = X anchor (default 0), int5 = Y anchor (default 0)."
+  },
+  {
+      "name": "removePlayerName",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string = textId, the one that was defined when creating the player name with addPlayerName."
+  },
+  {
+      "name": "displayQuestText",
+      "paramTypes": [
+          "string",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "string1 = quest id (defined in Game.js object), int = textIndex"
+  },
+  {
+      "name": "displayQuestCompleted",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string1 = quest id (defined in Game.js object)"
+  },
+  {
+      "name": "displayInfoBox",
+      "paramTypes": [
+          "string"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "string1 = imagePrefix ('liikkuminen', 'rahat', 'ovet', 'apua', 'reppu', 'asetukset', 'keskustelut', 'tehtävät')"
+  },
+  {
+      "name": "scalePlayer",
+      "paramTypes": [
+          "float"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "float1 = scale value 0.0 - 1.0"
+  },
+  {
+      "name": "changeGuiVisibility",
+      "paramTypes": [
+          "bool",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null"
+      ],
+      "description": "bool = visible, int = (OPTIONAL) tweening duration, default is instant show/hide"
+  },
+  {
+      "name": "changeFollowerOffset",
+      "paramTypes": [
+          "int"
+      ],
+      "defaultParams": [
+          "null"
+      ],
+      "description": "int = dialogin id"
+  },
+{
+      "name": "changeMusic",
+      "paramTypes": [
+          "string",
+          "boolean",
+          "boolean",
+          "int"
+      ],
+      "defaultParams": [
+          "null",
+          "null",
+          "null",
+          "null"
+      ],
+      "description": "string = musicId to change to, boolean1 = make music last across rooms and override room defaults, boolean2 = OPTIONAL override for loop parameter, int = OPTIONAL fadeTime in milliseconds"
+  },
+  {
+      "name": "resetGame",
+      "paramTypes": [
+          "boolean",
+          "boolean"
+      ],
+      "defaultParams": [
+          "true",
+          "false"
+      ],
+      "description": "boolean1 = toMainMenu, if false will just restart the game, boolean2 = true if you want to empty the localstorage"
+  }
+]

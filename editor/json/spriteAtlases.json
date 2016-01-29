@@ -1,0 +1,17 @@
+[
+    [
+        "player",
+        "img/player.png",
+        "img/player.json"
+    ],
+    [
+        "homeAtlas",
+        "img/home/homeAtlas.png",
+        "img/home/homeAtlas.json"
+    ],
+    [
+        "outsideAtlas",
+        "img/outside/outsideAtlas.png",
+        "img/outside/outsideAtlas.json"
+    ]
+]

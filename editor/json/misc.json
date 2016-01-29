@@ -1,0 +1,12 @@
+{
+    "roomId": 1,
+    "assetId": 1,
+    "actionId": 1,
+    "gameStateId": 1,
+    "taskId": 1,
+    "dialogId": 1,
+    "dialogChainId": 1,
+    "characterId": 1,
+    "dialogChains": [],
+    "defaultCharacterId": 1
+}

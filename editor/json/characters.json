@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "machineName": "character",
+        "name": "Player Name",
+        "nick": "Player",
+        "spriteAtlas": "player",
+        "x": 0,
+        "y": 0,
+        "foreground": false,
+        "animations": [
+            {
+                "name": "walkAni",
+                "fps": 15,
+                "loop": true,
+                "generateFrameNames": [
+                    "player_",
+                    0,
+                    11,
+                    "",
+                    5,
+                    false
+                ],
+                "tempAnchor": [],
+                "tempAtlas": "player",
+                "frames": []
+            },
+            {
+                "name": "idleAni",
+                "fps": 15,
+                "loop": true,
+                "generateFrameNames": [],
+                "tempAnchor": [],
+                "tempAtlas": "player",
+                "frames": [
+                    "player_00012"
+                ]
+            },
+            {
+                "name": "speechAni",
+                "fps": 15,
+                "loop": true,
+                "generateFrameNames": [],
+                "tempAnchor": [],
+                "tempAtlas": "player",
+                "frames": [
+                    "player_00012",
+                    "player_00013",
+                    "player_00014"
+                ]
+            }
+        ],
+        "defaultActions": [],
+        "conditionalActions": [],
+        "room": "",
+        "scaleWithRoom": true
+    }
+]

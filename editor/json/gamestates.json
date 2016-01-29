@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "activeRoom",
+        "type": "string",
+        "value": "home"
+    },
+    {
+        "id": 2,
+        "name": "money",
+        "type": "int",
+        "value": 0
+    }
+]
