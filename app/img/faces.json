@@ -1,0 +1,300 @@
+{"frames": [
+
+{
+	"filename": "sivustakatsoja",
+	"frame": {"x":2,"y":2,"w":120,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":120,"h":131},
+	"sourceSize": {"w":167,"h":139},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tunkeilija",
+	"frame": {"x":124,"y":2,"w":140,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":161},
+	"sourceSize": {"w":145,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "poliisi",
+	"frame": {"x":266,"y":2,"w":148,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":162},
+	"sourceSize": {"w":148,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "poliisiPutka",
+	"frame": {"x":266,"y":2,"w":148,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":162},
+	"sourceSize": {"w":148,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "liisa",
+	"frame": {"x":416,"y":2,"w":151,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":151},
+	"sourceSize": {"w":151,"h":151},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "liisa_olohuone",
+	"frame": {"x":569,"y":2,"w":151,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":151},
+	"sourceSize": {"w":151,"h":151},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hiippari",
+	"frame": {"x":722,"y":2,"w":153,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":0,"w":153,"h":216},
+	"sourceSize": {"w":227,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pankkineiti",
+	"frame": {"x":2,"y":220,"w":153,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":153,"h":158},
+	"sourceSize": {"w":153,"h":159},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ensihoitaja",
+	"frame": {"x":157,"y":220,"w":153,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":157},
+	"sourceSize": {"w":153,"h":157},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "lipunmyyja",
+	"frame": {"x":312,"y":220,"w":155,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":155,"h":157},
+	"sourceSize": {"w":155,"h":157},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "muuttomies",
+	"frame": {"x":469,"y":220,"w":158,"h":152},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":152},
+	"sourceSize": {"w":158,"h":152},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "baarimikko",
+	"frame": {"x":629,"y":220,"w":161,"h":126},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":126},
+	"sourceSize": {"w":161,"h":126},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "anja",
+	"frame": {"x":792,"y":220,"w":165,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":121},
+	"sourceSize": {"w":165,"h":121},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "radio",
+	"frame": {"x":2,"y":380,"w":165,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":89,"y":11,"w":165,"h":166},
+	"sourceSize": {"w":351,"h":195},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "poliisivirkailija",
+	"frame": {"x":169,"y":380,"w":167,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":167,"h":153},
+	"sourceSize": {"w":167,"h":161},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tikkanen_olohuone",
+	"frame": {"x":338,"y":380,"w":168,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":194},
+	"sourceSize": {"w":172,"h":194},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "radiojuontaja",
+	"frame": {"x":508,"y":380,"w":169,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":196},
+	"sourceSize": {"w":169,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tikkanen",
+	"frame": {"x":679,"y":380,"w":169,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":194},
+	"sourceSize": {"w":172,"h":194},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tikkanen_auto",
+	"frame": {"x":679,"y":380,"w":169,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":194},
+	"sourceSize": {"w":172,"h":194},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "tikkanen_pubi",
+	"frame": {"x":679,"y":380,"w":169,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":194},
+	"sourceSize": {"w":172,"h":194},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "palomies",
+	"frame": {"x":850,"y":380,"w":172,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":190},
+	"sourceSize": {"w":173,"h":190},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "palomies_eteinen",
+	"frame": {"x":850,"y":380,"w":172,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":190},
+	"sourceSize": {"w":173,"h":190},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hatakeskus",
+	"frame": {"x":2,"y":578,"w":174,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":174,"h":161},
+	"sourceSize": {"w":174,"h":169},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "character",
+	"frame": {"x":178,"y":578,"w":178,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":200},
+	"sourceSize": {"w":178,"h":200},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "you",
+	"frame": {"x":178,"y":578,"w":178,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":200},
+	"sourceSize": {"w":178,"h":200},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "naapuri",
+	"frame": {"x":358,"y":578,"w":178,"h":173},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":173},
+	"sourceSize": {"w":178,"h":173},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "autokuski",
+	"frame": {"x":538,"y":578,"w":180,"h":266},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":266},
+	"sourceSize": {"w":180,"h":266},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "autokuski_rautatieasema",
+	"frame": {"x":538,"y":578,"w":180,"h":266},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":266},
+	"sourceSize": {"w":180,"h":266},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "pankkiautomaatti",
+	"frame": {"x":720,"y":578,"w":181,"h":205},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":29,"w":181,"h":205},
+	"sourceSize": {"w":186,"h":234},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "vakuutusmyyja",
+	"frame": {"x":2,"y":846,"w":181,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":171},
+	"sourceSize": {"w":181,"h":171},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "teemu",
+	"frame": {"x":185,"y":846,"w":197,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":175},
+	"sourceSize": {"w":197,"h":175},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "teemu_olohuone",
+	"frame": {"x":384,"y":846,"w":197,"h":175},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":175},
+	"sourceSize": {"w":197,"h":175},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "faces.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f214c0f0ac7d8737a2c6edcab0ecfc13:375658dfe0e44e1d4798007bdd1b8eb8:7cf197594d1a3722e0018a2f0a0b0770$"
+}
+}

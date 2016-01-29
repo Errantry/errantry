@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "kauppakeskus_doorTo_kauppa",
+	"frame": {"x":2,"y":2,"w":155,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":74,"y":166,"w":155,"h":77},
+	"sourceSize": {"w":304,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_kauppa_closed",
+	"frame": {"x":159,"y":2,"w":155,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":74,"y":166,"w":155,"h":77},
+	"sourceSize": {"w":304,"h":392},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_kauppakatu",
+	"frame": {"x":2,"y":81,"w":197,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":73,"w":197,"h":77},
+	"sourceSize": {"w":254,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_kauppakatu_closed",
+	"frame": {"x":201,"y":81,"w":197,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":73,"w":197,"h":77},
+	"sourceSize": {"w":254,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_kauppakeskus2krs",
+	"frame": {"x":2,"y":160,"w":171,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":213,"w":171,"h":77},
+	"sourceSize": {"w":234,"h":593},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_kauppakeskus2krs_closed",
+	"frame": {"x":175,"y":160,"w":171,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":213,"w":171,"h":77},
+	"sourceSize": {"w":234,"h":593},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_vakuutusyhtio",
+	"frame": {"x":2,"y":239,"w":224,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":142,"y":171,"w":224,"h":77},
+	"sourceSize": {"w":514,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "kauppakeskus_doorTo_vakuutusyhtio_closed",
+	"frame": {"x":228,"y":239,"w":224,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":142,"y":171,"w":224,"h":77},
+	"sourceSize": {"w":514,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "kauppakeskusAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6a26718dedc1b99120c260a49703b9d9:243e364e1d810feff0baef12edee08ca:450432e63488612494ff09874d2df0ef$"
+}
+}
